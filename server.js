@@ -17,6 +17,7 @@ app.use('/api/member', require('./routes/api/member'));
 app.use('/api/officers', require('./routes/api/officer'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/resume', require('./routes/api/resume'));
+app.use('/api/payment', require('./routes/api/payment'));
 // app.use('/api/event', require('./routes/api/event'));
 
 app.listen(PORT, () => {
